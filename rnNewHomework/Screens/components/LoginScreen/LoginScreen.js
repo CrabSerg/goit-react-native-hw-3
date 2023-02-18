@@ -118,7 +118,7 @@ const LoginScreen = () => {
                     onFocus={() => setIsFocusEmail(true)}
                     onBlur={() => setIsFocusEmail(false)}
                     value={email}
-                    placeholder="Адрес электронной почты"
+                    placeholder="Адреса електронної пошти"
                     cursorColor={"#BDBDBD"}
                     placeholderTextColor={"#BDBDBD"}
                     onChangeText={emailSave}
@@ -146,7 +146,7 @@ const LoginScreen = () => {
                     }
                   >
                     <Text style={styles.isPasswordShow}>
-                      {isPasswordHidden ? "Показать" : "Скрыть"}
+                      {isPasswordHidden ? "Показати" : "Приховати"}
                     </Text>
                   </TouchableOpacity>
                   <TouchableOpacity style={styles.button} onPress={onLogin}>
